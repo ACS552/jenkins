@@ -1,5 +1,20 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+            <button type="submit">Sign Up</button>
+        </form>
 </body>
 </html>
